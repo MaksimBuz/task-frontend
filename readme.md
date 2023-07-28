@@ -11,6 +11,7 @@
 
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ## Как открыть/запустить
 
 Зайти в папку сайта в файловом менеджере, запустить  index.html в браузере.
