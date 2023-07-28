@@ -1,0 +1,172 @@
+.header {
+    background-image: url('../img/Фон.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url('./ofont.ru_Helvetica\ Neue\ \(1\).ttf');
+}
+
+.container {
+    width: 1920px;
+    height: 1090px;
+    position: relative;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-item+.nav-item {
+    margin-left: 48px;
+}
+
+.header_main {
+    width: 100%;
+    height: 957px;
+    padding: 172px 0px;
+
+}
+// Текст справа
+.blok-text_right {
+    width: 628px;
+    height: 198px;
+    padding: 32px 40px;
+    border-radius: 20px;
+    background: black;
+    backdrop-filter: blur(3.5px);
+    margin-bottom: 229px;
+}
+
+.blok-text_right p {
+    height: 34px;
+}
+
+.text_right {
+    font-family: "HelveticaNeueCyr";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 4.8px;
+    color: White;
+    margin-bottom: 16px;
+
+}
+
+// Текст слева
+.bloc-text_left {
+    border-radius: 20px;
+    background: var(--black-80, rgba(0, 0, 0, 0.80));
+    backdrop-filter: blur(1px);
+    padding: 25px 32px;
+    width: 408px;
+    height: 133px;
+
+}
+
+.bloc-text_left p {
+    height: 17px;
+
+}
+
+.text_left {
+    font-family: "HelveticaNeueCyr";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    color: White;
+}
+
+
+
+// Боковая панель
+.aside-menu {
+    width: 60px;
+    height: 440px;
+    z-index: 10;
+    float: right;
+    margin-top: -498px;
+
+}
+
+.header_dropdown {
+    height: 100%;
+
+}
+
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.01);
+
+}
+
+.dropdown-item {
+    opacity: 100%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+
+.dropdown-toggle {
+    background-color: black;
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+}
+
+.dropdown-item {
+    background-color: black;
+    border-radius: 60px;
+
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+        position: static;
+
+    }
+
+    .left-block {
+        width: 300px;
+        margin: 0;
+
+    }
+
+    .blok-text_right {
+        width: 400px;
+    }
+
+    .text_right {
+        font-size: 24px;
+        line-height: 100%;
+        margin-bottom: 16px;
+
+    }
+
+    .blok-text_right p {
+        height: 2px;
+    }
+
+    .bloc-text_left {
+        width: 400px;
+
+    }
+
+    .aside-menu {
+        // display: none;
+        margin-top: -198px;
+
+    }
+
+}
